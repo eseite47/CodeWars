@@ -34,10 +34,6 @@ var codeBreakDown = function(str){
       if(index < str.length){
         index++;
       }
-      else{
-        index = 0;
-      }
-      return;
     }
     else{
       holder[code[index-1]].push(value);
